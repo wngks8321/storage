@@ -12,6 +12,7 @@ let nemo = {
   var btnStop = document.getElementById('btnStop');
   var btnReset = document.getElementById('btnReset');
   var btnColor = document.getElementById('btnColor');
+  var btnAdd = document.getElementById('btnAdd');
 
   btnStart.onclick = function() {
     if(nemo.state ==='off'){
@@ -42,6 +43,7 @@ let nemo = {
   btnColor.onclick = function () {
     nemo.interv = setInterval(changeColor,500);
   };
+
 // };
 
 

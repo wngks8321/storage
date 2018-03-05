@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>계산</title>
+    <style>
+      div {border: 1px solid black; box-sizing: border-box; position:absolute}
+      #bigDiv {width:800px; height:600px; left:0; top:0}
+      #smallDiv {width:50px; height:50px; left:0; top:0; background: red}
+      button {position:absolute; top:620px}
+      #btnStop {left:50px}
+      #btnReset {left : 100px}
+      #btnColor {left :150px}
+    </style>
+  </head>
+  <body>
+    <div id="bigDiv">
+      <div id="smallDiv"></div>
+    </div>
+    <button type="button" id="btnStart">시작</button>
+    <button type="button" id="btnStop">멈춤</button>
+    <button type="button" id="btnReset">초기화</button>
+    <button type="button" id="btnColor">색 변경</button>
+    <script src="BB.js"></script>
+  </body>
+</html>
